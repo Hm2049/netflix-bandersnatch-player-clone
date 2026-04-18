@@ -15,7 +15,7 @@
   "main": "index.js",
   "scripts": {
     "assets": "npx http-server --cors -p 8081 assets/",
-    "dev": "npx http-server --cors -p 8081 public/"
+    "dev": "npx http-server --cors -p 8080 public/"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
