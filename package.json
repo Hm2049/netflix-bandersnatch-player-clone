@@ -1,0 +1,23 @@
+{
+  "name": "netflix-bandersnatch-player-clone",
+  "version": "1.0.0",
+  "description": "JS Expert 1.0 - Netflix Bandersnatch Player Clone",
+  "homepage": "https://github.com/Hm2049/netflix-bandersnatch-player-clone#readme",
+  "bugs": {
+    "url": "https://github.com/Hm2049/netflix-bandersnatch-player-clone/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hm2049/netflix-bandersnatch-player-clone.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8081 public/"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
